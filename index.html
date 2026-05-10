@@ -151,6 +151,19 @@ footer a{color:var(--gold);text-decoration:none}
           <div class="sib-input sib-form-block">
             <div class="form__entry entry_block">
               <div class="form__label-row">
+                <label class="entry__label" style="font-weight:400;text-align:left;" for="FIRSTNAME">First Name</label>
+                <div class="entry__field">
+                  <input class="input" type="text" id="FIRSTNAME" name="FIRSTNAME" autocomplete="given-name" value="" placeholder="Your first name" data-required="true" required />
+                </div>
+              </div>
+              <label class="entry__error entry__error--primary" style="font-size:12px;text-align:left;color:#661d1d;background-color:#ffeded;border-color:#ff4949;border-radius:0;"></label>
+            </div>
+          </div>
+        </div>
+        <div style="padding:8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row">
                 <label class="entry__label" style="font-weight:400;text-align:left;" for="EMAIL" data-required="*">Email Address</label>
                 <div class="entry__field">
                   <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" value="" placeholder="your@email.com" data-required="true" required />
